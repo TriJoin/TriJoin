@@ -13,7 +13,7 @@ Build and run the example
 ```txt
 mvn clean package
 
-./storm jar ../target/Trijoin-1.0-SNAPSHOT.jar com.basic.core.Topology -n 90 -pr 45 -ps 45 -pt 45 -sf 8 -dp 8 -win -wl 2000 --remote --s random
+./storm jar ../target/Trijoin-1.0-SNAPSHOT.jar com.basic.core.Topology -n 90 -pr 50 -ps 50 -pt 50 -sf 8 -dp 8 -win -wl 2000 --remote --s random
 ```
 
 -pr -ps  -pt: partitions of relation R S T
